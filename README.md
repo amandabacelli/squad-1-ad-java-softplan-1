@@ -19,8 +19,14 @@ Se a aceleração tiver ênfase em frontend (React, Vue, Angular, etc) a equipe 
 ## Wireframes
 Os wireframes a seguir servem para demonstrar as funcionalidades básicas da aplicação.
 
+## Git Guidelines
+
+Todo commit deve ter um comentário que possua o mínimo de informações sobre as modificações feitas,
+lembre-se de dar um `git pull` na branch master antes de criar uma nova branch ou
+dar um `git push` na master.
+
 ## Solução
 
-Devemos criar uma classe pai chamada Log, ela deve possuir todas as informações padrões da mensagem de Log, como:
- `Título do Erro`, `Descrição do Erro`, `TimeStamp`, `Id`, `Origem do Erro`. Classes filhas para os erros de Backend, FrontEnd e
- Mobile e Desktop podem ser criadas, (discussão em aberto).
+### Classe Log
+Devemos criar um pacote utilitário com métodos que retornem as mensagens de log para cada caso de uso:
+Backend, FrontEnd e Mobile e Desktop, portanto ela deve ter métodos static que implementem a geração de Logs.
