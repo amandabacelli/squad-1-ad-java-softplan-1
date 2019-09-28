@@ -18,3 +18,9 @@ Se a aceleração tiver ênfase no backend (Java, Python, C#, Go, PHP, etc) a eq
 Se a aceleração tiver ênfase em frontend (React, Vue, Angular, etc) a equipe deve obrigatoriamente implementar o frontend da aplicação e o backend pode ser substituido por uma aplicação mock. A implementação da API é considerado um bônus importante
 ## Wireframes
 Os wireframes a seguir servem para demonstrar as funcionalidades básicas da aplicação.
+
+## Solução
+
+Devemos criar uma classe pai chamada Log, ela deve possuir todas as informações padrões da mensagem de Log, como:
+ `Título do Erro`, `Descrição do Erro`, `TimeStamp`, `Id`, `Origem do Erro`. Classes filhas para os erros de Backend, FrontEnd e
+ Mobile e Desktop podem ser criadas, (discussão em aberto).
