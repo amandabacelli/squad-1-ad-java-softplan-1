@@ -19,6 +19,8 @@ Se a aceleração tiver ênfase em frontend (React, Vue, Angular, etc) a equipe 
 ## Wireframes
 Os wireframes a seguir servem para demonstrar as funcionalidades básicas da aplicação.
 
+https://www.codenation.dev/private-journey/java-florianopolis-1/challenge/central-erros
+
 ## Git Guidelines
 
 Todo commit deve ter um comentário que possua o mínimo de informações sobre as modificações feitas,
@@ -28,7 +30,7 @@ dar um `git push` na master.
 ## Solução
 
 ### Classe Log
-Devemos criar um pacote utilitário com métodos que retornem as mensagens de log para cada caso de uso:
+Devemos criar um pacote utilitário com métodos que retornem s mensagens de log para cada caso de uso:
 Backend, FrontEnd e Mobile e Desktop, portanto ela deve ter métodos static que implementem a geração de Logs.
 A classe de Log pode ser abstract para que as classes que utilizarem o Log implementem os métodos de Log de forma
 personalizada.
