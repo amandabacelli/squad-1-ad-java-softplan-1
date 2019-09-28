@@ -30,6 +30,8 @@ dar um `git push` na master.
 ### Classe Log
 Devemos criar um pacote utilitário com métodos que retornem as mensagens de log para cada caso de uso:
 Backend, FrontEnd e Mobile e Desktop, portanto ela deve ter métodos static que implementem a geração de Logs.
+A classe de Log pode ser abstract para que as classes que utilizarem o Log implementem os métodos de Log de forma
+personalizada.
 * Entidade
 * Timestamp
 * Descrição
