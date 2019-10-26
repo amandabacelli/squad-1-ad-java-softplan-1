@@ -27,6 +27,13 @@ Todo commit deve ter um comentário que possua o mínimo de informações sobre 
 lembre-se de dar um `git pull` na branch master antes de criar uma nova branch ou
 dar um `git push` na master.
 
+## Ferramentas
+* XMind;
+* BR Modelo;
+* Trello para gerenciamento de projetos;
+* Postman
+* Angular
+
 ## Solução
 
 ### Classe Log
@@ -39,5 +46,19 @@ personalizada.
 * Entidade,
 * Timestamp,
 * Descrição,
-* Teste,
 
+## Lista de Tarefas
+1 - Criar a modelagem conceitual do BD;
+2 - Criar as entidades em java com base na modelagem feita;
+3 - Criar Repository e Service;
+4 - Definir as rotas (controller);
+5 - Testar as rotas com Postman;
+6 - Autenticação e Autorização;
+7 - Criar as telas de front-end:
+7.1 - Cadastro de Usuário;
+7.2 - Login;
+7.3 - Consulta de erros;
+7.4 - (Opcional) Arquivo com erros que irão popular o banco de dados em x minutos;
+8 - Deploy (Heroku?)
+9 - Testes (Opcional)
+10 - Slides da apresentação;
