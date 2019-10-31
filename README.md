@@ -55,10 +55,10 @@ personalizada.
 5. Testar as rotas com Postman;
 6. Autenticação e Autorização;
 7. Criar as telas de front-end:
-7.1. Cadastro de Usuário;
-7.2. Login;
-7.3. Consulta de erros;
-7.4. (Opcional) Arquivo com erros que irão popular o banco de dados em x minutos;
+   - Cadastro de Usuário;
+   - Login;
+   - Consulta de erros;
+   - (Opcional) Arquivo com erros que irão popular o banco de dados em x minutos;
 8. Deploy (Heroku?)
 9. Testes (Opcional)
 10. Slides da apresentação;
