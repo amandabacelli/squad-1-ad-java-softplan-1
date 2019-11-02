@@ -30,7 +30,7 @@ dar um `git push` na master.
 ## Ferramentas
 * [Trello para gerenciamento de projetos;](https://trello.com/)
 * [Postman](https://www.getpostman.com/)
-* [Angular] (https://angular.io/)
+* [Angular](https://angular.io/)
 * [DBDiagram](https://dbdiagram.io/)
 
 ## Solução
