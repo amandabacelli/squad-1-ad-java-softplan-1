@@ -48,10 +48,10 @@ personalizada.
 
 ## Lista de Tarefas
 1. Criar a modelagem conceitual do BD;
-2. Criar as entidades em java com base na modelagem feita;
-3. Criar Repository e Service;
-4. Definir as rotas (controller);
-5. Testar as rotas com Postman;
+2. Criar as entidades em java com base na modelagem feita (André);
+3. Criar Repository(Guilherme) e Service(Eduardo);
+4. Definir as rotas (controller) (Leonardo/Eduardo);
+5. Testar as rotas com Postman(Ariel);
 6. Autenticação e Autorização;
 7. Criar as telas de front-end:
    - Cadastro de Usuário;
