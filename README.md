@@ -28,11 +28,10 @@ lembre-se de dar um `git pull` na branch master antes de criar uma nova branch o
 dar um `git push` na master.
 
 ## Ferramentas
-* XMind;
-* BR Modelo;
-* Trello para gerenciamento de projetos;
-* Postman
-* Angular
+* [Trello para gerenciamento de projetos;](https://trello.com/)
+* [Postman](https://www.getpostman.com/)
+* [Angular] (https://angular.io/)
+* [DBDiagram](https://dbdiagram.io/)
 
 ## Solução
 
