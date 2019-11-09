@@ -1,4 +1,5 @@
 package br.com.codenation.utils;
 
-public class Utils {
+public abstract class Utils {
+
 }
