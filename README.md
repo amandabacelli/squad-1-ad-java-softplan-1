@@ -19,7 +19,7 @@ Se a aceleração tiver ênfase em frontend (React, Vue, Angular, etc) a equipe 
 ## Wireframes
 Os wireframes a seguir servem para demonstrar as funcionalidades básicas da aplicação.
 
-https://www.codenation.dev/private-journey/java-florianopolis-1/challenge/central-erros
+[Documento Codenation - Central de Erros](https://github.com/codenation-dev/squad-1-ad-java-softplan-1/blob/master/Codenation_%20acelerando%20a%20carreira%20de%20quem%20acelera%20o%20mundo.pdf)
 
 ## Git Guidelines
 
