@@ -20,7 +20,7 @@ public class UserController {
 
     private final UserService userService;
 
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "https://roupadesapo.herokuapp.com")
     @PostMapping
     public ResponseEntity<HttpStatus> saveUser(@Valid @RequestBody UserDTO userDTO) {
         userService.saveUser(UserMapper.toUser(userDTO));

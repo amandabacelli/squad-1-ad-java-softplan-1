@@ -93,7 +93,7 @@ No canto inferior direito na barra de navegação click em Git: nome_da_sua_bran
 ## Swagger
 Nesse projeto foi utilizado o editor Swagger para a validação e documentação da API desenvolvida pelos integrantes da squad. Nesse editor estão descritos todos os endpoints com os métodos que executam e os respectivos parâmetros. Inclui também os modelos do banco de dados utilizado.
 
-Pode ser acessado no endpoint: http://localhost:8080/swagger-ui.html.
+Pode ser acessado no endpoint: https://rds-backend.herokuapp.com/swagger-ui.html.
 ## Testando
 Para testar com o Swagger você pode utilizar o usuário pré cadastrado. Basta fazer uma requisição POST a rota /login onde o JWT está rodando. Lá devemos passar um JSON com os seguintes dados: 
 
