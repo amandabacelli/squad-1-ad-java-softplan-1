@@ -89,24 +89,20 @@ Abra o intelliJ, execute os comandos: <br />
 - ```git pull origin staging``` -> atualiza seu repositório local com as modificações da staging <br />
 - ```git checkout nome_da_sua_branch_de_trabalho``` -> entra na sua branch de trabalho <br />
 No canto inferior direito na barra de navegação click em Git: nome_da_sua_branch, no menu que abrir selecione a branch staging e aperte em *Merge into current*. Resolva os conflitos que surgirem e faça um **push**.
-## Testando
-Para testar com o Postman você pode utilizar o usuário pré cadastrado. Basta fazer a requisição do token com um POST no endpoint: http:localhost:8080/oauth/token passando no body um  *form-data* com os parâmetros:
 
-- **grant_type**: password
-- **username**: john@domain.com
-- **password**: 123456 <br />
-
-Na aba de authorization selecione *Basic Auth* e preencha os campos da seguinte forma:
-
-- **Username**: codenation
-- **Password**: 123 <br />
-
-Você também pode criar um usuário na rota http://localhost:8080/user com um POST passando simplesmente o JSON contendo as informaçes do novo usuário e depois utilizar o email e senha cadastrados para conseguir um token e ficar autorizado a acessar as outras rotas da **API**.<br />
-
-Em posse de um token válido você pode acessar qualquer rota da **API** realizando as requisições com autorização do tipo Bearer Token.
 ## Swagger
-
 Nesse projeto foi utilizado o editor Swagger para a validação e documentação da API desenvolvida pelos integrantes da squad. Nesse editor estão descritos todos os endpoints com os métodos que executam e os respectivos parâmetros. Inclui também os modelos do banco de dados utilizado.
 
-Pode ser acessado no endpoint: http://localhost:8080/swagger-ui.html
+Pode ser acessado no endpoint: http://localhost:8080/swagger-ui.html.
+## Testando
+Para testar com o Swagger você pode utilizar o usuário pré cadastrado. Basta fazer uma requisição POST a rota /login onde o JWT está rodando. Lá devemos passar um JSON com os seguintes dados: 
+
+{
+- **fullName**: "John",
+- **username**: "john@domain.com",
+- **password**: 123456
+}
+
+Essa requisição terá como resposta um token no formato: {Bearer <token>}. Essa resposta deve ser copiada na opção authorize para que o token seja enviado em qualquer operação da aplicação garantindo o acesso.
+
 
