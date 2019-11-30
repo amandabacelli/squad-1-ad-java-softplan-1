@@ -30,7 +30,12 @@ dar um `git push` na master.
 ## Ferramentas
 * [Trello para gerenciamento de projetos;](https://trello.com/)
 * [Postman](https://www.getpostman.com/)
-* [Angular](https://angular.io/)
+* [Swagger](https://swagger.io/)
+* [Sonar](https://www.sonarqube.org/)
+* [Heroku](https://www.heroku.com/)
+* [Node](https://nodejs.org/en/)
+* [React](https://pt-br.reactjs.org/)
+* [H2Database](https://www.h2database.com/html/main.html)
 * [DBDiagram](https://dbdiagram.io/)
 
 ## Solução
