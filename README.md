@@ -36,6 +36,9 @@ dar um `git push` na master.
 * [Node](https://nodejs.org/en/)
 * [React](https://pt-br.reactjs.org/)
 * [H2Database](https://www.h2database.com/html/main.html)
+* [Java](https://www.h2database.com/html/main.html)
+* [Spring](https://www.h2database.com/html/main.html)
+* [Maven](https://www.h2database.com/html/main.html)
 * [DBDiagram](https://dbdiagram.io/)
 
 ## Solução
